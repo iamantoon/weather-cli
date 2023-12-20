@@ -1,0 +1,35 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "private": false,
+  "description": "weather cli",
+  "main": "index.js",
+  "bin": "./",
+  "os": ["!win32", "linux"],
+  "cpu": ["!arm"],
+  "man": ["./README.md"],
+  "engines": {
+    "node": ">14"
+  },
+  "funding": "https://github.com/",
+  "files": ["./src/**/*.js"],
+  "browser": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Anton",
+  "license": "ISC",
+  "homepage": "https://purpleschool.ru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "bugs": {
+    "url": "https://purpleschool.ru",
+    "email": "oneloveeeeeeant@gmail.com"
+  } 
+}
